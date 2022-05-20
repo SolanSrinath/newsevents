@@ -1,0 +1,30 @@
+{
+  "type": "module",
+  "name": "penguin",
+  "version": "1.0.0",
+  "description": "banckend APIs ",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run"
+  },
+  "repository": {
+    "type": "git",
+    "url": "./"
+  },
+  "keywords": [
+    "login",
+    "register",
+    "role",
+    "profile"
+  ],
+  "author": "Srinath",
+  "license": "ISC",
+  "dependencies": {
+    "async": "^3.2.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.0",
+    "express": "^4.17.3",
+    "mysql": "^2.18.1",
+    "pg-promise": "^10.11.1"
+  }
+}
